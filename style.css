@@ -15,10 +15,15 @@ body {
 }
 
 
+#container {
+  position: relative;
+}
+
+
 /* Stil der Tabelle */
 table {
     border-collapse: collapse;
-    margin: 20px auto;
+    margin: 0 auto;
     border: 5px solid transparent; /* Um die Linien nur innerhalb der Tabelle zu haben */
 }
 
@@ -39,6 +44,12 @@ table {
 
 table td {
     border: 5px solid white; /* Dicke und Farbe der Trennlinien */
+}
+
+
+td:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
 
